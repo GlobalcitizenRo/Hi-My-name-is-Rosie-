@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Planet Earth Tamagotchi</title>
+    <link rel="stylesheet" href="Tamagotchi.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Planet Earth Tamagotchi</h1>
+        <div class="planet">
+            <img id="earth" src="earth.png" alt="Planet Earth">
+        </div>
+        <div class="status">
+            <p>Health: <span id="health">100</span>%</p>
+            <p>SDG: <span id="sdg">Climate Action</span></p>
+        </div>
+        <div class="actions">
+            <button onclick="takeAction('climate')">Take Climate Action</button>
+            <button onclick="takeAction('poverty')">Reduce Poverty</button>
+            <button onclick="takeAction('education')">Improve Education</button>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Planet Earth Tamagotchi</p>
+    </footer>
+    <script src="Tamagotchi.js"></script>
+</body>
+</html>
